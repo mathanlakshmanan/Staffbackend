@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 10000",
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "build": "node _build -b",
+  "clean": "node _build -c"
   },
   "keywords": [],
   "author": "",
