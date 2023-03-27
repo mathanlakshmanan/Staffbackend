@@ -8,7 +8,7 @@ require("dotenv").config();
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 mongoose.set('strictQuery', false);
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://mathankumar:Mathanlakma5@cluster0.gdlv0c3.mongodb.net/staffmanage",
+mongoose.connect("mongodb+srv://mathankumar:Mathanlakma5@cluster0.gdlv0c3.mongodb.net/staffmanage",
 {
     useNewUrlParser: true,
     useUnifiedTopology: true,
