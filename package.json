@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 10000",
     "start": "node app.js",
-    "build": "node _build -b",
-  "clean": "node _build -c"
+    "build": "node build"
   },
   "keywords": [],
   "author": "",
